@@ -8,7 +8,6 @@ class DevelopmentConfig(Config):
     OPENAI_KEY = "YOURKEYHERE"
 
 
-x
 config = {
     "development": DevelopmentConfig,
     "testing": DevelopmentConfig,
