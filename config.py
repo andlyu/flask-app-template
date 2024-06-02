@@ -1,13 +1,16 @@
-
 class Config(object):
     DEBUG = True
     TESTING = False
 
-class DevelopmentConfig(Config):
-    SECRET_KEY = "this-is-a-super-secret-key"
 
+class DevelopmentConfig(Config):
+    SECRET_KEY = "jhfduhfd8754827ywehujkfh977428T%^#@#TYHGF55t7yhlgjhhsddfda"  # Not sure if necessay
+    OPENAI_KEY = "YOURKEYHERE"
+
+
+x
 config = {
-    'development': DevelopmentConfig,
-    'testing': DevelopmentConfig,
-    'production': DevelopmentConfig
+    "development": DevelopmentConfig,
+    "testing": DevelopmentConfig,
+    "production": DevelopmentConfig,
 }
